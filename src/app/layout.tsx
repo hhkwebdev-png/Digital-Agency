@@ -14,8 +14,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Your Website Name",
-  description: "Your Website Description",
+  title: "HK Digital Agency",
+  description: "Web Development, AI Automation and Digital Solutions",
+  verification: {
+    google: "s8DBk8NT86QZ82EmYvYT9DR7wOry4amjRV7OMogJD4g",
+  },
 };
 
 export default function RootLayout({
