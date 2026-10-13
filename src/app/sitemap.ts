@@ -7,13 +7,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/portfolio",
     "/pricing",
+    "/blogs",
+    "/faq",
     "/contact",
     "/services/web-development",
+    "/services/web-designing",
+    "/services/seo",
+    "/services/ai-automation",
+    "/services/ai-chatbot",
+    "/services/content-writing",
+    "/services/blog-writing",
   ];
 
   return pages.map((page) => ({
     url: `${baseUrl}${page}`,
-    lastModified: new Date(),
     changeFrequency: "monthly",
     priority: page === "" ? 1 : 0.8,
   }));
