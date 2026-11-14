@@ -16,9 +16,16 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://digital-agency-rouge-sigma.vercel.app"),
+
   title: "AI Digital Agency | Web Development, AI Automation & SEO",
+
   description:
     "AI Digital Agency delivers professional web development, web design, AI automation, chatbot solutions, and SEO services to help businesses grow online.",
+
+  verification: {
+    google: "s8DBk8NT86QZ82EmYvYT9DR7wOry4amjRV7OMogJD4g",
+  },
+
   alternates: {
     canonical: "/",
   },
